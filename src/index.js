@@ -33,6 +33,7 @@ function listBreeds(dogBreeds){
       new_node.style.color = 'yellow';
     })
     
+    let options = document.querySelector("#breed-dropdown")
     document.addEventListener('onchange', function(){
       document.querySelector("#breed-dropdown").value
       
