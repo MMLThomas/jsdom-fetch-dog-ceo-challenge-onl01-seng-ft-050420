@@ -37,7 +37,15 @@ function listBreeds(dogBreeds){
     document.addEventListener('onchange', function(){
       let breedsList = document.querySelectorAll('li')
       let alpha = options.value
-      breedsList
+      breedsList.forEach( breed => { 
+        if(breed[0] == alpha){
+          breed.style.display = breed
+        }
+        else{
+          breed.style.display = ""
+        }
+        
+      })
       
     })
     
