@@ -35,7 +35,7 @@ function listBreeds(dogBreeds){
     
     let options = document.querySelector("#breed-dropdown")
     document.addEventListener('onchange', function(){
-      
+      let breedsList = document.querySelector('li')
       let alpha = options.value
       
     })
