@@ -39,10 +39,10 @@ function listBreeds(dogBreeds){
       let alpha = options.value
       breedsList.forEach( breed => { 
         if(breed[0] == alpha){
-          breed.style.display = breed
+          breed.style.display = "";
         }
         else{
-          breed.style.display = ""
+          breed.style.display = 'none';
         }
         
       })
