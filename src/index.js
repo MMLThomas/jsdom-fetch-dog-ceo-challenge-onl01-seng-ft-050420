@@ -34,7 +34,7 @@ function listBreeds(dogBreeds){
     })
     
     let options = document.querySelector("#breed-dropdown")
-    options.addEventListener('onchange', function(){
+    options.addEventListener('change', function(){
       let breedsList = document.querySelectorAll('li')
       let alpha = options.value
       breedsList.forEach( breed => { 
